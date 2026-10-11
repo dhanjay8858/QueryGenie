@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗃️ AI Database Assistant (Production Edition)
+# 🧞 QueryGenie — Natural Language Database Analyst
 
 ### _A natural language AI interface for SQL databases combining ChatGPT, DBeaver, and MySQL Workbench._
 
@@ -16,7 +16,7 @@
 
 ## 📌 Overview
 
-**AI Database Assistant** is an enterprise-grade natural language interface for SQL databases. Built with a modular clean architecture using **LangChain SQL Agent**, **Groq Llama 3.3 70B** (`llama-3.3-70b-versatile`), **SQLAlchemy**, and **Plotly**, it converts plain English prompts into optimized SQL queries, executes them safely, and delivers interactive visual analytics.
+**QueryGenie** is an enterprise-grade natural language database analyst and interface for SQL databases. Built with a modular clean architecture using **LangChain SQL Agent**, **Groq Llama 3.3 70B** (`llama-3.3-70b-versatile`), **SQLAlchemy**, and **Plotly**, it converts plain English prompts into optimized SQL queries, executes them safely, and delivers interactive visual analytics.
 
 Default LLM: **`llama-3.3-70b-versatile`** (Groq's top tool-calling model designed specifically for LangChain SQL Agents).
 
@@ -47,7 +47,7 @@ Default LLM: **`llama-3.3-70b-versatile`** (Groq's top tool-calling model design
 ## 🏗️ Modular Project Architecture
 
 ```
-Chat-with-SQL-DB-with-langchain-DB-AI-agent/
+QueryGenie/
 ├── app.py                 # Main Streamlit application entry point
 ├── config/                # Settings & security configuration
 │   ├── settings.py        # System constants & Groq LLM factory (llama-3.3-70b-versatile default)
@@ -97,8 +97,8 @@ Chat-with-SQL-DB-with-langchain-DB-AI-agent/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/dhanjay8858/Chat-with-SQL-DB-with-langchain-DB-AI-agent.git
-cd Chat-with-SQL-DB-with-langchain-DB-AI-agent
+git clone https://github.com/dhanjay8858/QueryGenie.git
+cd QueryGenie
 ```
 
 ### 2. Create & Activate Virtual Environment
@@ -171,10 +171,7 @@ The `.gitignore` file automatically excludes sensitive files:
 
 ## 📄 License
 
-<<<<<<< HEAD
-This project is open-source and licensed under the [MIT License](LICENSE).
-=======
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -185,5 +182,3 @@ This project is open source and available under the [MIT License](LICENSE).
 Made with ❤️ using LangChain & Streamlit
 
 </div>
-
->>>>>>> 2ef4a2227dc89ba3b56f35336ea01fd98b088cb4
